@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Listado Datos Alumnos</title>
+    <title>SGE - Listado de electrodomésticos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-slate.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
@@ -90,7 +90,7 @@ else {
         <div  class="well nav-collapse sidebar-nav">
           <ul id="pruebita" class="nav nav-tabs nav-stacked main-menu">
             <li class="nav-header hidden-tablet">Menu Principal</li>
-            <li><a href="CargaAsistencias.jsp"><i class="icon-font"></i> Cargar Electrodomestico</a>           
+            <li><a href="addElectro.jsp"><i class="icon-file"></i> Cargar Electrodomestico</a>           
             </li>
             <li><a class="ajax-link"><i class="icon-list-alt"></i><span class="hidden-tablet"> Listado Electrodomestico</span></a>
             <ul>
@@ -284,7 +284,7 @@ else {
       "sZeroRecords":"No se encontraron registros",
       "sInfoFiltered":"(filtrado de _MAX_ entradas)",
       "sInfoEmpty":"Mostrando 0 de 0 entradas",
-      "sLengthMenu":     "campos a mostrar por pagina _MENU_",
+      "sLengthMenu":     "registros a mostrar por página _MENU_",
     	  "oPaginate": {
           "sNext":     "Siguiente",
           "sPrevious": "Anterior"

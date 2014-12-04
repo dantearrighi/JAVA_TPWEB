@@ -72,25 +72,28 @@ String usu= (String)session.getAttribute("usuario");
         <div  class="well nav-collapse sidebar-nav">
           <ul id="pruebita" class="nav nav-tabs nav-stacked main-menu">
             <li class="nav-header hidden-tablet">Menu Principal</li>
-            <li><a href="CargaAsistencias.jsp"><i class="icon-font"></i> Cargar Asistencias</a>           
-            </li>
-            <li><a class="ajax-link"><i class="icon-list-alt"></i><span class="hidden-tablet"> Listado</span></a>
+            
+            <li><a class="ajax-link"><i class="icon-list-alt"></i><span class="hidden-tablet"> Electrodomesticos</span></a>
             <ul>
-                <li><a class="ajax-link" href="ListaElectrodomesticos.jsp">Listado Electrodomesticos</a></li>
-                <li><a class="ajax-link" href="ListadoAsistencias.jsp">Asistencias</a></li>
-                <li><a class="ajax-link" href="ListadoParciales.jsp">Parciales</a></li>
-                <li><a class="ajax-link" href="ListadoTP.jsp">Trabajos Practicos</a></li>
+                <li><a class="ajax-link" href="ListaElectrodomesticos.jsp">Lista de Electrodomesticos</a></li>
+                <li><a class="ajax-link" href="altas.jsp">Altas</a></li>
+                <li><a class="ajax-link" href="bajas.jsp">Bajas</a></li>
               </ul>
             </li>
-            <li><a class="ajax-link" href="CargaParciales.jsp"><i class="icon-edit"></i><span class="hidden-tablet"> Cargar Notas Parciales</span></a></li>
-            <li><a class="ajax-link" href="CargaTP.jsp"><i class="icon-file"></i><span class="hidden-tablet"> Cargar notas TP</span></a></li>
-            <li><a class="ajax-link" href="ModificarAlu.jsp"><i class="icon-pencil"></i><span class="hidden-tablet"> Modificar Datos Alumnos</span></a>
+            <li><a class="ajax-link" href="addElectro.jsp"><i class="icon-file"></i><span class="hidden-tablet"> Agregar electro</span></a></li>
+            <li><a class="ajax-link" href="CargaTP.jsp"><i class="icon-file"></i><span class="hidden-tablet"> ITEM MENU2</span></a></li>
+            <li><a class="ajax-link" href="ModificarAlu.jsp"><i class="icon-pencil"></i><span class="hidden-tablet"> ITEM MENU3</span></a>
             </li>
-            <li><a class="ajax-link" href="ModificarDatosDoc.jsp"><i class="icon-refresh"></i><span class="hidden-tablet"> Modificar Datos Docente</span></a></li>
+            <li><a class="ajax-link" href="modificarElectro.jsp"><i class="icon-refresh"></i><span class="hidden-tablet"> Modificar</span></a>
+             <ul>
+                <li><a class="ajax-link" href="editUsuario.jsp">Usuario</a></li>
+                <li><a class="ajax-link" href="editElectro.jsp">Electrodomestico</a></li>
+              </ul>
+            </li>
             <li><a class="ajax-link"><i class="icon-remove"></i><span class="hidden-tablet"> Dar de baja</span></a>
             <ul>
-                <li><a class="ajax-link" href="EliminaAlu.jsp">Alumno</a></li>
-                <li><a class="ajax-link" href="EliminarComi.jsp">Curso</a></li>
+                <li><a class="ajax-link" href="bajaUsuario.jsp">Usuario</a></li>
+                <li><a class="ajax-link" href="bajaElectro.jsp">Electrodomestico</a></li>
               </ul>
             </li>
           </ul>
