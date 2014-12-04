@@ -6,7 +6,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Login</title>
+	<title>Ingreso de Usuarios</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-slate.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.css">
@@ -29,7 +29,7 @@
        
         
         <div class="mi_barra">
-        	<h3>Login test for java_tp1</h3>
+        	<h3>This is the Login Page for TP JAVA WEB</h3>
         </div>
         
         
@@ -48,7 +48,7 @@
 			<div class="row-fluid">
 				<div class="well span5 center login-box">
 					<div class="alert alert-info">
-						Login with username and password
+						Please, fill your username and password
 					</div>
 						<form name="datos" id="datos" action="ServletLogin" class="form-horizontal" method="post" onsubmit="return validar();">
 								<fieldset>
